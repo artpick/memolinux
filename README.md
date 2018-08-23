@@ -7,3 +7,8 @@ date +%T -s "10:13:13"
 ```bash
 find . -name "dpkg*.gz" -exec zgrep 'upgrade gitlab' \{\} \; 2>/dev/null
 ```
+
+## Size of a folder
+```bash
+du -sh <folder_name>
+```
